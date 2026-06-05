@@ -12,7 +12,7 @@ from dash import html, dcc, Output, Input, State, no_update
 import plotly.graph_objects as go
 
 # 1. Configuración de la App Base
-from app import app
+from app import app, server
 
 # 2. Ingesta de Módulos de Machine Learning y Analítica
 from entrenamiento import ejecutar_entrenamiento_ia  
